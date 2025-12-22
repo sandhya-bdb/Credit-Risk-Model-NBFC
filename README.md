@@ -34,6 +34,10 @@ A Non-Banking Financial Company (NBFC) based in India is partnering with a leadi
 - The UI will enable loan officers to input borrower demographics, loan parameters, and bureau data to:
   - Predict default probability
   - Output an interpretable credit rating
+### **4. Deliverables:
+ A fully functional credit risk model. The model has high explainability where the business can interpret model behavior and suggest necessary tweaks.
+ A Streamlit-based application for real-time assessment of loan applications.
+ Documentation and reports on model performance and maintenance.
 
 ---
 ## Architecture: Component Diagram
@@ -105,7 +109,7 @@ CRM/
 ## 🧠 Scope of Work
 
 ### **1. Model Development**
-- Build a predictive model using Lauki Finance’s historical loan data.  
+- Build a predictive model using the Finance company’s historical loan data.  
 - Handle class imbalance using techniques like under-sampling and resampling.  
 - Train and evaluate models such as Logistic Regression, Random Forest, and XGBoost.
 
@@ -145,8 +149,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ### 💡 Future Enhancements
-
--Build and deploy a Streamlit web application for real-time loan risk predictions.
 
 -Add automated retraining with new data.
 
