@@ -102,24 +102,6 @@ CRM/
 > **Note:** The `dataset/` folder is excluded from the GitHub repository using `.gitignore`. You need to add the data locally for the model to run.
 
 ---
-### Project overview
-Datasets
-   |
-   V
-Data Preprocessing → EDA
-   |                    |
-   V                    |
-Model Training ← Hyperparameter Tuning
-   |
-   V
-Model Evaluation
-   |
-   V
-Scorecard Creation
-   |
-   V
-Streamlit App → Prediction Output
-
 ## 🧠 Scope of Work
 
 ### **1. Model Development**
