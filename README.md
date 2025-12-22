@@ -152,4 +152,4 @@ pip install -r requirements.txt
 
 -Add automated retraining with new data.
 
--Publish to Heroku / AWS / Render for production use.
+-Publish to Heroku / AWS / Render for production use. Already deployed on Streamlit Community Cloud.
