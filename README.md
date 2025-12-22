@@ -64,28 +64,23 @@ CRM/
 > **Note:** The `dataset/` folder is excluded from the GitHub repository using `.gitignore`. You need to add the data locally for the model to run.
 
 ---
-## Project Workflow Diagram
-
-```mermaid
-flowchart TD
-    A[📁 Dataset<br/>bureau_data.csv<br/>customers.csv<br/>loans.csv]
-    B[🔄 Data Preprocessing]
-    C[📊 Exploratory Data Analysis]
-    D[🧠 Model Training]
-    E[🏷️ Hyperparameter Tuning]
-    F[📈 Model Evaluation]
-    G[📊 Scorecard Creation]
-    H[🛠 Streamlit App]
-    I[📦 Prediction Output<br/>Default Probability<br/>Credit Rating]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
+### Project overview
+Datasets
+   |
+   V
+Data Preprocessing → EDA
+   |                    |
+   V                    |
+Model Training ← Hyperparameter Tuning
+   |
+   V
+Model Evaluation
+   |
+   V
+Scorecard Creation
+   |
+   V
+Streamlit App → Prediction Output
 
 ## 🧠 Scope of Work
 
