@@ -107,3 +107,10 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+### 💡 Future Enhancements
+
+-Build and deploy a Streamlit web application for real-time loan risk predictions.
+
+-Add automated retraining with new data.
+
+-Publish to Heroku / AWS / Render for production use.
