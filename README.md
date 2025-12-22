@@ -36,7 +36,45 @@ A Non-Banking Financial Company (NBFC) based in India is partnering with a leadi
   - Output an interpretable credit rating
 
 ---
+## Architecture: Component Diagram
 
+```mermaid
+graph TD
+
+    subgraph Data_Layer
+        A1[📁 bureau_data.csv]
+        A2[📁 customers.csv]
+        A3[📁 loans.csv]
+    end
+
+    subgraph Backend
+        B1[(Data Preprocessing)]
+        B2[(Model Training)]
+        B3[(Model Evaluation)]
+        B4[(Scorecard Creation)]
+        B5[(Export Model Artifact)]
+    end
+
+    subgraph UI_Layer
+        C1[📱 Streamlit Web App]
+        C2[🧑‍💻 User Inputs]
+        C3[📊 Prediction Output]
+    end
+
+    A1 --> B1
+    A2 --> B1
+    A3 --> B1
+
+    B1 --> B2
+    B2 --> B3
+    B3 --> B4
+    B4 --> B5
+
+    B5 --> C1
+    C1 --> C2
+    C1 --> C3
+
+```
 ## 📁 Project Structure
 ```markdown
 CRM/
