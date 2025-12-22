@@ -34,10 +34,10 @@ A Non-Banking Financial Company (NBFC) based in India is partnering with a leadi
 - The UI will enable loan officers to input borrower demographics, loan parameters, and bureau data to:
   - Predict default probability
   - Output an interpretable credit rating
-### **4. Deliverables:
- A fully functional credit risk model. The model has high explainability where the business can interpret model behavior and suggest necessary tweaks.
- A Streamlit-based application for real-time assessment of loan applications.
- Documentation and reports on model performance and maintenance.
+### 4. Deliverables:
+ - A fully functional credit risk model. The model has high explainability where the business can interpret model behavior and suggest necessary tweaks.
+ - A Streamlit-based application for real-time assessment of loan applications.
+ - Documentation and reports on model performance and maintenance.
 
 ---
 ## Architecture: Component Diagram
