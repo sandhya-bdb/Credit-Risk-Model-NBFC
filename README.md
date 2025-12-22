@@ -1,5 +1,5 @@
 # Development of Credit Risk Model for a Finance company
-# Development of Credit Risk Model for Lauki Finance
+
 
 [![Pandas](https://img.shields.io/badge/pandas-%3E%3D1.5.0-blue)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/numpy-%3E%3D1.25.14-yellowgreen)](https://numpy.org/)
