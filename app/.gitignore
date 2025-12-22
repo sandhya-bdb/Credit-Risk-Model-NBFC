@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+__pycache__/
+
+# Ignore dataset CSVs
+dataset/*.csv
+
+# Python artifacts
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
