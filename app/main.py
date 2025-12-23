@@ -6,8 +6,6 @@ from prediction_helper import predict
 # Set the page configuration and title
 st.set_page_config(page_title="Credit Risk Modeling-NBFC", page_icon="📊")
 
-st.title("Credit Risk Modeling-NBFC")
-
 st.title(" Credit Risk Modeling-NBFC")
 
 
