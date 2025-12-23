@@ -2,12 +2,12 @@ import streamlit as st
 from prediction_helper import predict  # Ensure this is correctly linked to your prediction_helper.py
 
 # Set the page configuration and title
-st.set_page_config(page_title="Credit Risk Modelling", page_icon="📊")
-<<<<<<< HEAD
-st.title("Credit Risk Modelling")
-=======
-st.title(" Credit Risk Modelling")
->>>>>>> f1d27fd (Update main.py and prediction_helper.py for Streamlit app)
+st.set_page_config(page_title="Credit Risk Modeling-NBFC", page_icon="📊")
+
+st.title("Credit Risk Modeling-NBFC")
+
+st.title(" Credit Risk Modeling-NBFC")
+
 
 # Create rows of three columns each
 row1 = st.columns(3)
@@ -67,6 +67,4 @@ if st.button('Calculate Risk'):
     st.write(f"Rating: {rating}")
 
 
-=======
 
->>>>>>> f1d27fd (Update main.py and prediction_helper.py for Streamlit app)
