@@ -1,5 +1,6 @@
 import streamlit as st
-from app.prediction_helper import predict
+from prediction_helper import predict
+
 
 
 # Set the page configuration and title
