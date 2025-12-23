@@ -6,7 +6,11 @@ from prediction_helper import predict
 # Set the page configuration and title
 st.set_page_config(page_title="Credit Risk Modeling-NBFC", page_icon="📊")
 
-st.title(" Credit Risk Modeling-NBFC")
+st.markdown(
+    "<h1 style='text-align: center;'>Credit Risk Modeling – NBFC</h1>",
+    unsafe_allow_html=True
+)
+
 
 
 # Create rows of three columns each
