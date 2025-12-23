@@ -1,21 +1,19 @@
-<<<<<<< HEAD
-=======
+# Streamlit cache busting comment
+
 import os
->>>>>>> f1d27fd (Update main.py and prediction_helper.py for Streamlit app)
 import joblib
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 # Path to the saved model and its components
-<<<<<<< HEAD
+
 MODEL_PATH = 'artifacts/model_data.joblib'
-=======
+
 
 BASE_DIR = os.path.dirname(__file__)   # points to CRM/app
 MODEL_PATH = os.path.join(BASE_DIR, "artifacts", "model_data.joblib")
 
->>>>>>> f1d27fd (Update main.py and prediction_helper.py for Streamlit app)
 
 # Load the model and its components
 model_data = joblib.load(MODEL_PATH)
