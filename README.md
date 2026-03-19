@@ -12,7 +12,7 @@
 [![Bayesian-Optimization](https://img.shields.io/badge/bayes__opt-%3E%3D1.2.0-lightblue)](https://github.com/fmfn/BayesianOptimization)
 [![Imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-%3D0.9.1-green)](https://imbalanced-learn.org/)
 
-
+https://credit-risk-analyzer-132.nexttoken.app
 ## Overview
 
 A Non-Banking Financial Company (NBFC) based in India is partnering with a leading AI service provider — to develop a sophisticated credit risk model. The goal is to build a robust predictive model and an associated credit scorecard that categorizes loan applications into **Poor, Average, Good, and Excellent** categories based on patterns similar to the CIBIL scoring system.
