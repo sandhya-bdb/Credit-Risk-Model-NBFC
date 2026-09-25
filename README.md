@@ -17,6 +17,8 @@ https://credit-risk-analyzer-132.nexttoken.app
 
 A Non-Banking Financial Company (NBFC) based in India is partnering with a leading AI service provider — to develop a sophisticated credit risk model. The goal is to build a robust predictive model and an associated credit scorecard that categorizes loan applications into **Poor, Average, Good, and Excellent** categories based on patterns similar to the CIBIL scoring system.
 
+I developed an end-to-end Credit Risk Modeling and Scorecard system for an Indian NBFC to predict loan default probabilities and assign CIBIL-style credit scores (ranging from 300 to 900). By integrating customer demographic, loan transaction, and bureau credit history across 50,000 records, I engineered key financial indicators like LTI (Loan-to-Income), Delinquency Ratio, and Average DPD. Using rigorous statistical feature screening (VIF, WOE/IV) and hyperparameter tuning with Optuna and Bayesian Search, the final tuned Logistic Regression model achieved an AUC-ROC of 0.984, a KS Statistic of 85.98% (in Decile 2), and a 95% Recall on defaulters, ensuring regulatory compliance and complete underwriting explainability. The model was deployed as a real-time Streamlit underwriting application for credit officers.
+
 ---
 
 ## 🔍 Project Scope
